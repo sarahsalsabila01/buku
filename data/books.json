@@ -1,0 +1,29 @@
+[
+    {
+        "id":1,
+        "judul": "The Lord of the Rings",
+        "penulis": "J.R.R TOLKIEN",
+        "penerbit": "Allen & Unwin",
+        "thn_terbit": 1954,
+        "harga": 100000
+
+    },
+    {
+        "id":2,
+        "judul": "Harry Potter and the Sorcerer's Stone",
+        "penulis": "J.K. Rowling",
+        "penerbit": "Bloomsbury",
+        "thn_terbit": 1997,
+        "harga": 75000
+
+    },
+    {
+        "id":2,
+        "judul": "The Hitchhiker's Guide to the Galaxy",
+        "penulis": "Douglas Adams",
+        "penerbit": "Pan Books",
+        "thn_terbit": 1979,
+        "harga": 50000
+
+    }
+]
