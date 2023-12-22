@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/styleSarah.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Buku Sarah</title>
+</head>
+<body>
+    <header>
+    <nav>
+        <div class="Bookshelf_nav">
+            <h1 style="font-family: 'Marck Script', cursive;">Bookshelf <span class="apps">Apps</span></h1>
+        </div>
+    </nav>
+    
+        <div class="headjumbotron">
+            <h1 style="font-family: cursive;" class="head_bar__title">Bookshelf Apps</h1> <br>
+            <h5> Bookshelf Apps adalah tempat yang dapat memudahkanmu mengingat tentang buku - buku yang kamu telah baca dan sedang kamu baca </h5>
+       </div>
+
+    </header>
+	<main>
+		<div class="content">
+		<section id="input-buku" class="input-buku">
+			<h2>Masukkan Buku Baru</h2>
+			<form id="form-input-buku" action="#" class="form">
+				<div class="input">
+					<label for="input-judul" class="form-label">Judul</label>
+					<input id="input-judul" class="form-input" type="text" name="judul"
+						placeholder="Masukkan Judul Buku" required>
+				</div>
+				<div class="input">
+					<label for="input-penulis" class="form-label">Penulis</label>
+					<input id="input-penulis" class="form-input" type="text"  name="penulis"
+						placeholder="Masukkan Nama Penulis Buku" required>
+				</div>
+				<div class="input">
+					<label for="input-penerbit" class="form-label">penerbit</label>
+					<input id="input-penerbit" class="form-input" type="text"  name="penerbit"
+						placeholder="Masukkan Nama penerbit Buku" required>
+				</div>
+				<div class="input">
+					<label for="input-thn_terbit" class="form-label">thn_terbit</label>
+					<input class="form-input" type="number" id="input-thn_terbit" name="thn_terbit"
+						placeholder="Masukkan thn_terbit Terbit Buku" required>
+				</div>
+				<div class="input">
+					<label for="input-harga" class="form-label">harga</label>
+					<input id="input-harga" class="form-input" type="text"  name="harga"
+						placeholder="Masukkan Nama harga Buku" required>
+				</div>
+				<div class="input-box">
+					<label for="input-baca" class="form-label">Selesai Dibaca</label>
+					<input id="input-baca" class="form-input" type="checkbox" id="inputBookIsComplete" name="baca">
+				</div>
+				<button id="bookSubmit" type="submit" class="btn-submit"><span>Masukan Buku Sesuai Rak</span></button>
+			</form>
+		</section>
+
+		<section id="rak-buku " class="rak-buku">
+			<h2>Rak Buku</h2>
+			<section class="rak-section-card">
+				<h2 class="font-gradient text-center">Selesai Dibaca</h2>
+				<div class="list-item" id="sudah-baca">
+	
+				</div>
+			</section>
+		</section>
+		</div>
+	</main>
+
+
+
+
+
+<footer>
+<p>Bookshelf_App &#169;, Sarah Salsabila</p>
+</footer>
+
+<script src="JS\data.js"></script>
+<script src="JS/dom.js"></script>
+<script src="JS/script.js"></script>
+
+</body>
+</html>
